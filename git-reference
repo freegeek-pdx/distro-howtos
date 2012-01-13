@@ -8,8 +8,8 @@ clone remote:
 mkdir -p distro/howtos
 cd distro/
 
-git clone -o owtos ssh://devo/git/distro/howtos/distro-howtos.git ./howtos
-git add remote  owtos ssh://devo/git/distro/howtos/distro-howtos.git ./howtos --add shortcut
+git clone -o howtos ssh://devo/git/distro/howtos/distro-howtos.git ./howtos
+git add remote  howtos ssh://devo/git/distro/howtos/distro-howtos.git ./howtos --add shortcut
 
 add
 ====
@@ -65,6 +65,8 @@ Add remote to local:
 
 cd ~/Sites/myapp
 git remote add origin ssh://myserver.com/var/git/myapp.git *
+
+push local to remote 
 git push origin master
 
 * or add 
